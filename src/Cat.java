@@ -1,3 +1,8 @@
+/**
+ *  @author Emma Ingram
+ *  @author Braedon O'Callaghan
+ */
+
 import javax.swing.JPanel;
 import java.awt.*;
 import java.awt.geom.*;
@@ -30,7 +35,7 @@ public class Cat {
 		g2.setColor(Color.black);
 		g2.fillOval(x, y, HEAD_DIMENSION, HEAD_DIMENSION);
 		// Draw the eyes
-		g2.setColor(Color.green);
+		g2.setColor(Color.red);
 		x = catX + EYE_X; 
 		y = catY + EYE_Y;
 		g2.fillOval(x, y, EYE_WIDTH, EYE_HEIGHT);

@@ -1,3 +1,8 @@
+/**
+ *  @author Emma Ingram
+ *  @author Braedon O'Callaghan
+ */
+
 import java.awt.Graphics;
 
 import javax.swing.JFrame;
